@@ -25,3 +25,5 @@ nnoremap <C-l> <C-w>l
 " Plug
 nnoremap <Leader>pi :PlugInstall<CR>
 nnoremap <Leader>pc :PlugClean<CR>
+
+nnoremap <Leader>b :bprevious <CR>

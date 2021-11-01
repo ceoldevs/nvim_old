@@ -8,9 +8,9 @@ set relativenumber " Get the relative numbers w.r.t current line
 set nowrap " Will not wrap text for large lines
 
 set scrolloff=8 " 8 lines will be always visible on scroll down or up
-set shiftwidth=4 " 4 tab space
+set shiftwidth=2 " 2 tab space
 set smartindent " Auto indent
-set tabstop=4 softtabstop=4 " 4 tab space and using space as tab characters
+set tabstop=2 softtabstop=2 " 2 tab space and using space as tab characters
 
 " Backup swap config for undoing and redoing
 set nobackup

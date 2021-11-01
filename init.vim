@@ -12,6 +12,7 @@ Plug 'junegunn/goyo.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'preservim/nerdcommenter'
+Plug 'hashivim/vim-terraform'
 call plug#end()
 
 " set leader key as <space> for shortcuts
@@ -19,5 +20,5 @@ let mapleader = " "
 
 for f in split(glob('~/.config/nvim/vim-configs/*.vim'), '\n')
     exe 'source' f
-endfor    
+endfor
 

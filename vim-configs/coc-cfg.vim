@@ -8,6 +8,9 @@ let g:coc_global_extensions = [
   \ 'coc-snippets',
   \ 'coc-svelte',
   \ 'coc-java',
+  \ 'coc-emmet',
+  \ 'coc-pairs',
+  \ 'coc-prettier',
   \ ]
 
 " use TAB to trigger completition
